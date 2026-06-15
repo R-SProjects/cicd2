@@ -141,7 +141,7 @@
 							<configuration>
 								<suiteXmlFiles>
 									<suiteXmlFile>
-										testSuites\ErrorValidationsTests.xml</suiteXmlFile>
+										testSuites/ErrorValidationsTests.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>

@@ -29,7 +29,7 @@ public class ErrorValidationTest extends BaseTest1 {
 		landingpage.loginApplication("abc@gmail.com", "Roopsa@123");
 		String productToAdd = "ZARA COAT 3";
 		Assert.assertEquals(landingpage.getErrorMessage(),"Incorrect email or password.");
-		System.out.println("ErroHand");
+		System.out.println("ErroHand-Got the error message");
 		
 	}
 
@@ -42,6 +42,6 @@ public class ErrorValidationTest extends BaseTest1 {
 	//	//div[@class='ng-tns-c4-54 ng-star-inserted ng-trigger ng-trigger-flyInOut ngx-toastr toast-error']
 		boolean match = cartpage1.verifyProductOnCartPage("ZARA COAT 33");
 		Assert.assertFalse(match);
-		System.out.println("Successfull-Product Error Validation");
+		System.out.println("Successfull-Product Error message Validation");
 }
 }
