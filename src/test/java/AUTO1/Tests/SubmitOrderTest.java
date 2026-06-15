@@ -27,7 +27,7 @@ import AUTO1.pageobjects.CheckOutPage1;
 import AUTO1.pageobjects.ConfirmationPage1;
 import AUTO1.pageobjects.LandingPage;
 import AUTO1.pageobjects.ProductCat;
-
+//Submitting orders in web app
 public class SubmitOrderTest extends BaseTest1 {
 	//String productToAdd = "ZARA COAT 3";
 	@Test(dataProvider="getData",groups="PurchaseOrder")
