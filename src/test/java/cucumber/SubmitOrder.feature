@@ -12,4 +12,4 @@ Feature: To submit an order from Ecom web page
 
     Examples:
       | username      | password  | product     |
-      | abc@gmail.com | Roopa@123 | ZARA COAT 3 |
+      | abc@gmail.com | Roopa@123 | ADIDAS ORIGINAL|
