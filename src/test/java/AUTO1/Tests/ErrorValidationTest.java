@@ -29,7 +29,7 @@ public class ErrorValidationTest extends BaseTest1 {
 		landingpage.loginApplication("abc@gmail.com", "Roopsa@123");
 		String productToAdd = "ZARA COAT 3";
 		Assert.assertEquals(landingpage.getErrorMessage(),"Incorrect email or password.");
-		System.out.println("ErroHand-Got the error message");
+		System.out.println("Error handdling group Test");
 		
 	}
 
