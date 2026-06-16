@@ -4,7 +4,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 //@CucumberOptions(features="\\src\\test\\java\\cucumber\\SubmitOrder.feature",glue="AUTO1\\StepDefinitions",monochrome=true,plugin={"html:\\LatestRep\\cucumber.html"})
-@CucumberOptions(features="src/test/java/cucumber",glue="AUTO1/StepDefinitions",monochrome=true,tags="@Regression",plugin= {"html:target/LatestRep/cucumberCC.html"})
+@CucumberOptions(features="src/test/java/cucumber",glue="AUTO1/StepDefinitions",monochrome=true,tags="@Regression",plugin= {"html:target/LatestRep/cucumberCC.html","json:target/cucumber.json"})
 public class TestNGTestRunner extends AbstractTestNGCucumberTests {
 
 }
+
